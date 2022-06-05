@@ -12,8 +12,33 @@
     height: 100vh;
 }
 
-#main-container{
+main{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }    
+
+#projects-grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+#grid-container{
+    
+}
+
+#project-img{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+}
     
