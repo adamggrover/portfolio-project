@@ -33,7 +33,7 @@ main{
 }
 
 #project-img{
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
 
 
@@ -45,5 +45,12 @@ main{
     display: flex;
     justify-content: center;
     background-color: rgb(108, 156, 195);
+}
+
+.project-title{
+    background-color: lightgray;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1rem solid lightgray;
 }
     
