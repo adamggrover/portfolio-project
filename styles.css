@@ -25,18 +25,19 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
+    width: 80%;
 
 }
 
-#grid-container{
+.project-tile{
     
+    object-fit: cover;
 }
+
 
 #project-img{
-    object-fit: cover;
-    height: 100%;
-
-
+    object-fit: cover; 
+    height: calc(100% - 7rem);
     width:  100%;
     
 }
@@ -51,6 +52,7 @@ main{
     background-color: lightgray;
     padding: 1rem;
     text-align: center;
-    border-top: 1rem solid lightgray;
+    font-size: 2rem;
+    
 }
     
