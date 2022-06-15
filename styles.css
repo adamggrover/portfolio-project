@@ -51,7 +51,7 @@ main{
 #projects{
     display: flex;
     justify-content: center;
-    background-color: rgb(108, 156, 195);
+    background-color: #ffffff;
 }
 
 .project-title{
