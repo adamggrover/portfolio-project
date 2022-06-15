@@ -7,6 +7,9 @@
 
 #navbar{
     background-color: #44c99e;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
 #welcome-section{
