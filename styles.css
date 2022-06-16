@@ -9,7 +9,8 @@
     background-color: #44c99e;
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 2rem;
+    padding-right: 2rem;
 }
 
 #welcome-section{
