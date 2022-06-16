@@ -52,6 +52,8 @@ main{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .project-title{
