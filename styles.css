@@ -16,8 +16,9 @@
 #welcome-section{
     background-color: #44c99e;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content:center;    
+    align-items:flex-start;
     height: 100vh;
     width: 100%;
 }
