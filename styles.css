@@ -107,20 +107,6 @@ a{
     100% { opacity: 1; }
   }
  
-/*Section Transition*/
-
-
-
-.slanted-div {
-    position: relative;
-    height: 13rem;
-    width: 100%;
-    background-color: #44c99e;
-    transform: skewY(7deg);
-    margin-top: -6.5rem;
-}
-
-  
 /*Projects Section*/
 
 #projects{
