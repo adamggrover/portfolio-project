@@ -2,8 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
 }
+
 
 main{
     display: flex;
@@ -45,7 +47,6 @@ a{
 
 #welcome-text{
     margin-left: 9rem;
-    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content:center;   
@@ -87,8 +88,9 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 4rem;
     gap: 0.5rem;
+    
 }
 
 #white-arrow{
@@ -105,6 +107,30 @@ a{
     100% { opacity: 1; }
   }
  
+/*Section Transition*/
+
+
+
+.slanted-div {
+    position: relative;
+    height: 22rem;
+    width: 100%;
+    background-color: #44c99e;
+    transform: skewY(-9deg);
+    margin-top: -8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
 /*Projects Section*/
 
 #projects{
