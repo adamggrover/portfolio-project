@@ -23,14 +23,28 @@
     font-size: 1rem;
 }
 
+#nav-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
 #welcome-section{
     background-color: #44c99e;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;   
-    align-items:flex-start;
     height: 100vh;
     width: 100%;
+}
+
+#white-arrow{
+    height: 4rem;
+    width: auto;
 }
 
 main{
@@ -95,7 +109,10 @@ main{
 
 #welcome-text{
     margin-left: 9rem;
-    margin-top: -10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;   
+    align-items:flex-start;
 }
 
 .typing-text::after {
