@@ -45,7 +45,14 @@ a{
 #white-arrow{
     height: 4rem;
     width: auto;
+    animation: fadeIn 6s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% {opacity: 0;}
+    100% { opacity: 1; }
+  }
 
 main{
     display: flex;
