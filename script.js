@@ -3,19 +3,22 @@ const text = document.querySelector('.typing-text');
 
 // make a words array
 const words = [
-  "web developer based in Bristol"
+  "I'm a web developer based in Bristol"
 ];
 
-// start typing effect
-setTyper(text, words);
 
-function setTyper(element, words) {
+// start typing effect
+
+
+const myTimeOut = setTimeout(setTyper, 1500, text, words);
+
+function setTyper(element, words) {  
 
   const LETTER_TYPE_DELAY = 75;
   const WORD_STAY_DELAY = 2000;
 
   const DIRECTION_FORWARDS = 0;
-  const DIRECTION_BACKWARDS = 1;
+  const DIRECTION_BACKWARDS = 0;
 
   var direction = DIRECTION_FORWARDS;
   var wordIndex = 0;
@@ -26,7 +29,7 @@ function setTyper(element, words) {
   startTyping();
 
   function startTyping() {
-    wordTypeInterval = setInterval(typeLetter, LETTER_TYPE_DELAY);
+        wordTypeInterval = setInterval(typeLetter, LETTER_TYPE_DELAY);
   }
 
   function typeLetter() {
