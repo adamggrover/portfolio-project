@@ -11,6 +11,12 @@
     justify-content: flex-end;
     gap: 2rem;
     padding-right: 2rem;
+    
+}
+
+#navlink{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #welcome-section{
@@ -74,13 +80,26 @@ main{
     color: #ffffff;
 }
 
-.role{
+.typing-text{
     font-size: 2rem;
-    color: #ffffff  ;
+    color: #ffffff;
 }
 
 #welcome-text{
     margin-left: 9rem;
     margin-top: -5rem;
 }
+
+.typing-text::after {
+    content: "|";
+    animation: blink ease 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    } 50% {
+      opacity: 1;
+    }
+  }
 
