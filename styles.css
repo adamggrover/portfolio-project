@@ -113,11 +113,11 @@ a{
 
 .slanted-div {
     position: relative;
-    height: 22rem;
+    height: 13rem;
     width: 100%;
     background-color: #44c99e;
-    transform: skewY(-9deg);
-    margin-top: -8rem;
+    transform: skewY(7deg);
+    margin-top: -6.5rem;
 }
 
 
@@ -137,7 +137,7 @@ a{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    padding-top: 10rem;
+    padding-top: 20rem;
     padding-bottom: 10rem;
 }
 
@@ -145,7 +145,7 @@ a{
     display: grid;    
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: 20rem 20rem;
-    grid-gap: 20px;
+    grid-gap: 5rem;
     width: 80%;
 }
 
