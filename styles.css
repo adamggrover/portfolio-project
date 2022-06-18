@@ -64,7 +64,7 @@ a{
     margin-top: 3rem;
     font-size: 3rem;
     color: #ffffff;
-    font-family: 'Inconsolata', monospace
+    font-family: 'Inconsolata', monospace;
 }
 
 /*Animated cursor*/
@@ -120,16 +120,6 @@ a{
     margin-top: -6.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
   
 /*Projects Section*/
 
@@ -147,21 +137,32 @@ a{
     grid-template-rows: 20rem 20rem;
     grid-gap: 5rem;
     width: 80%;
+    padding: 5rem;
+}
+
+.project-tile{
+    
+    
+    box-shadow: 5px 5px 25px 5px lightgray;
+    border-radius: 0.5rem;
 }
 
 #project-img{
     object-fit: cover; 
     object-position: top;    
     width:  100%;
-    max-height: calc(100% - 3.7rem);    
+    max-height: calc(100% - 4.1rem);    
 }
 
 .project-title{
-    background-color: lightgray;
-    padding: 1rem;
+    background-color: #ffffff;
+    padding: 1.2rem;
     text-align: center;
     font-size: 1.5rem;
-    margin-top: -0.3rem;    
+    margin-top: -0.3rem; 
+    font-family: 'Inconsolata', monospace;
+    color: #2f2f2f;
+    
 }
 
 /*Contact Section*/
