@@ -2,21 +2,25 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    
 }
 
 #navbar{
     background-color: #44c99e;
     display: flex;
     justify-content: flex-end;
-    gap: 2rem;
-    padding-right: 2rem;
+    gap: 3rem;
+    padding-right: 9rem;
+    padding-top: 3rem;
     
 }
 
 #navlink{
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 #welcome-section{
@@ -78,16 +82,20 @@ main{
 .hi,.name{
     font-size: 9rem;
     color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .typing-text{
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 3rem;
     color: #ffffff;
+    font-family: 'Inconsolata', monospace
 }
 
 #welcome-text{
     margin-left: 9rem;
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
 
 .typing-text::after {
