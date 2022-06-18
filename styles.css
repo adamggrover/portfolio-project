@@ -43,6 +43,7 @@ a{
     background-color: #44c99e;
     height: calc(100vh - 4rem);
     width: 100%;
+    
 }
 
 #welcome-text{
@@ -107,6 +108,14 @@ a{
     50% {opacity: 0;}
     100% { opacity: 1; }
   }
+
+/*Spacer*/
+
+#spacer{
+    background-color: #44c99e;
+    height: 15rem;
+    width: 100%;
+}
  
 /*Projects Section*/
 
