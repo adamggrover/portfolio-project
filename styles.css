@@ -18,6 +18,10 @@ h2{
    font-weight: 900;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*Navbar*/
 
 #navbar{
@@ -36,10 +40,6 @@ h2{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-}
-
-a{
-    text-decoration: none;
 }
 
 /*Hero Section*/
@@ -129,7 +129,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #44c99e;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -144,12 +144,12 @@ a{
     padding: 5rem;
 }
 
-.project-tile{
+/*.project-tile{
     
     
     box-shadow: 5px 5px 25px 5px lightgray;
     border-radius: 0.5rem;
-}
+}*/
 
 #project-img{
     object-fit: cover; 
@@ -178,4 +178,13 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#contact-heading{
+    color: #ffffff;
+}
+
+#profile-link{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
 }
