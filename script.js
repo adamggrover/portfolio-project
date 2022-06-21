@@ -10,7 +10,7 @@ const words = [
 // start typing effect
 
 
-const myTimeOut = setTimeout(setTyper, 1000, text, words);
+const myTimeOut = setTimeout(setTyper, 800, text, words);
 
 function setTyper(element, words) {  
 
