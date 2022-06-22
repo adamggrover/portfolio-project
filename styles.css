@@ -15,6 +15,7 @@ main{
     flex-direction: column;
     width: 100%;
     align-content: center;
+    
 }  
 
 
@@ -34,10 +35,15 @@ a{
 
 #navbar{
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    flex: 1 0 auto;
     justify-content: flex-end;
     gap: 3rem;
     padding-right: 9rem;
     padding-top: 3rem;
+    position:fixed;
+    width: 100%;
     
 }
 
@@ -59,7 +65,7 @@ a{
 
 #welcome-text{
     margin-left: 9rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content:center;   
@@ -128,7 +134,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 10rem;
+    padding-top: 1rem;
     padding-bottom: 10rem;
 }
 
@@ -162,7 +168,9 @@ a{
 }
 
 #project-heading{
+    margin-top: 3rem;
     margin-bottom: 2rem;
+    
 }
 
 /*Contact Section*/
